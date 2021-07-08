@@ -18,4 +18,3 @@ do
   # Replace the ' ' in the timestamp with 'T', per ISO-8601.
   timew track ${start/ /T} - ${end/ /T} "'$name'" :quiet
 done
-#just for testing
